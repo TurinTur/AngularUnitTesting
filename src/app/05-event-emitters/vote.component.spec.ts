@@ -14,6 +14,6 @@ describe('VoteComponent', () => {
     component.upVote();
 
     //expect(totalVotes).not.toBeNull();    // not. da acceso a lo opuesto de las aserciones normales
-    expect(totalVotes).not.toBe(1);
+    expect(totalVotes).toBe(1);
   });
 });
